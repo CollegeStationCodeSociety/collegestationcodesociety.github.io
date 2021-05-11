@@ -7,7 +7,7 @@ html {
     font-family: "Hind Siliguri", sans-serif;
 }
 .nav-container {
-    position: relitive;
+    position: relative;
     background: #2d376e;
     left: 0px;
     top: 0px;
@@ -38,6 +38,7 @@ html {
     float: left;
     border-left: solid 1px black;
     padding: 2%;
+    height: 600px;
 }
 #footer {
     border-top: solid 1px black
@@ -49,10 +50,13 @@ html {
     min-height: 3em;
     min-width: 100%;
 }
-#logo {
-    height: 24px;
-    width: 48px;
+.logo {
+    height: 52.4px;
+    width: 44.33px;
 }
 #header {
     display: inline;
+}
+iframe {
+    width: 99%;
 }
