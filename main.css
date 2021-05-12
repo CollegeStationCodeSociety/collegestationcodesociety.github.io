@@ -39,6 +39,7 @@ html {
     border-left: solid 1px black;
     padding: 2%;
     height: 600px;
+    min-height: 300%;
 }
 #footer {
     border-top: solid 1px black
@@ -51,12 +52,20 @@ html {
     min-width: 100%;
 }
 .logo {
-    height: 52.4px;
-    width: 44.33px;
+    height: 1.9%;
+    width: 1.633%;
+}
+#nav-logo {
+    margin: 1px;
 }
 #header {
     display: inline;
 }
 iframe {
     width: 99%;
+}
+#footer-logo {
+    position: relative;
+    margin: none;
+    padding: none;
 }
