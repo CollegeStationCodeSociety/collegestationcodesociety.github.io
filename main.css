@@ -1,0 +1,70 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+
+html {
+    color: black;
+    background-color: white;
+    font-family: "Hind Siliguri", sans-serif;
+}
+.nav-container {
+    position: relative;
+    background: #2d376e;
+    left: 0px;
+    top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    text-align: right;
+}
+.nav, .nav-container {
+    color: white;
+    outline: none;
+    border: none;
+    background: #2d376e;
+}
+.nav {
+    padding: 24px 48px;
+}
+.nav:hover {
+    color: white;
+    background-color: #3e487f;
+    cursor: pointer;
+}
+#sidebar {
+    width: 27.5%;
+    float: left;
+}
+#main-content {
+    width: 67.5%;
+    float: left;
+    border-left: solid 1px black;
+    padding: 2%;
+    height: 600px;
+}
+#footer {
+    border-top: solid 1px black
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+}
+#footer {
+    min-height: 3em;
+    min-width: 100%;
+}
+.logo {
+    height: 52.4px;
+    width: 44.33px;
+}
+#header {
+    display: inline;
+}
+iframe {
+    width: 99%;
+}
+.footer-container {
+    height: 5em;
+    font-size: 1.5em;
+}
+footer-logo {
+    display: inline;
+    margin: 0px;
+}
