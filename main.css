@@ -60,3 +60,11 @@ html {
 iframe {
     width: 99%;
 }
+.footer-container {
+    height: 5em;
+    font-size: 1.5em;
+}
+footer-logo {
+    display: inline;
+    margin: 0px;
+}
