@@ -73,3 +73,6 @@ footer-logo {
     display: inline;
     margin: 0px;
 }
+#mobile-calender-toggle {
+    display: none;
+}
