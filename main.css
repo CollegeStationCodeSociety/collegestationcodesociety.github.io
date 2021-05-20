@@ -23,6 +23,7 @@ html {
 }
 .nav {
     padding: 24px 48px;
+    float: right;
 }
 .nav:hover {
     color: white;
@@ -54,6 +55,10 @@ html {
     height: 52.4px;
     width: 44.33px;
 }
+#header-logo {
+    height: 55px;
+    width: 48px;
+}
 #header {
     display: inline;
 }
@@ -67,4 +72,7 @@ iframe {
 footer-logo {
     display: inline;
     margin: 0px;
+}
+#mobile-calender-toggle {
+    display: none;
 }
