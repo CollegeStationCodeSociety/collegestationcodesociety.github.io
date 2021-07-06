@@ -5,6 +5,8 @@ html {
     color: black;
     background-color: white;
     font-family: "Hind Siliguri", sans-serif;
+    text-align: center;
+    overflow-x: hidden;
 }
 .nav-container {
     position: relative;
@@ -30,19 +32,13 @@ html {
     background-color: #3e487f;
     cursor: pointer;
 }
-#sidebar {
-    width: 27.5%;
-    float: left;
-}
 #main-content {
-    width: 67.5%;
-    float: left;
     border-left: solid 1px black;
     padding: 2%;
     height: 600px;
 }
 #footer {
-    border-top: solid 1px black
+    border-top: solid 1px black;
     padding: 2%;
     text-align: center;
     width: 100%;
