@@ -6,6 +6,7 @@ html {
     background-color: white;
     font-family: "Hind Siliguri", sans-serif;
     overflow-x: hidden;
+    text-align: center;
 }
 .nav-container {
     width: 100%;
