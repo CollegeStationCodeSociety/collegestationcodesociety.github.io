@@ -35,13 +35,12 @@ html {
 #sidebar {
     width: 100%;
     float: none;
-    padding: 2%;
 }
 #main-content {
     width: 98%;
-    float: none;
     padding: 2%;
-    height: 600px;
+    padding-bottom: 0%;
+    padding-top: 5%;
 }
 #footer {
     border-top: solid 1px black;
@@ -59,8 +58,9 @@ html {
 #header-logo {
     height: 50.4px;
     position: absolute;
-    left: 0px;
+    left: 2%;
     top: 0px;
+    padding-right: 5%;
 }
 #header {
     display: inline;
@@ -77,9 +77,10 @@ footer-logo {
     margin: 0px;
 }
 p {
-    width: 75%;
-    float: left;
-
+    width: 74%;
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: center;
 }
 #calendar {
     width: 65%;
