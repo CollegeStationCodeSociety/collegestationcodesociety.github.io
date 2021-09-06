@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
 
 /*tagnames*/
-img {
-    height: 52.4px;
-    width: 44.33px;
-}
+
 html {
     color: black;
     background-color: white;
@@ -13,30 +10,48 @@ html {
     overflow-x: hidden;
     text-align: center;
 }
+div {
+    width: 98%;
+    padding: 2%;
+    padding-bottom: 0%;
+    padding-top: 5%;
+}
+div img {
+    height: 50.4px;
+}
 iframe {
     width: 99%;
 }
-
-.nav, .nav-container {
+p {
+    width: 50%;
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: center;
+}
+.header button {
     color: white;
     outline: none;
     border: none;
-    background: #2d376e;
+    background: #2d3763;
+    padding: 24px 48px;
 }
-.nav-container {
+.header button:hover {
+    color: white;
+    background-color: #3e487f;
+    cursor: pointer;
+}
+.header {
     width: 100%;
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: 0%;
     background: #2d376e;
     padding-left: 0px;
     padding-top: 0px;
     width: 100%;
     text-align: right;
 }
-.nav {
-    padding: 24px 48px;
-}
+
 .nav:hover {
     color: white;
     background-color: #3e487f;
@@ -46,25 +61,23 @@ iframe {
     height: 5em;
     font-size: 1.5em;
 }
-.nav-container img {
-    height: 55px;
+#banner {
+    background-color: #e5cf00;
+    height: 5.5px;
     position: absolute;
-    left: 4px;
-    top: 5px;
+    left: 0px;
+    top: 55px;
+    z-index: 0;
 }
-#header {
-    display: inline;
+#banner h2 {
+    position: absolute;
+    top: 4.5%;
+    left: 50%;
 }
-#main-content {
-#sidebar {
-    width: 100%;
-    float: none;
-}
-#main-content {
-    width: 98%;
-    padding: 2%;
-    padding-bottom: 0%;
-    padding-top: 5%;
+#banner button {
+    position: absolute;
+    top: 10%;
+    left: 90%;
 }
 #footer {
     padding: 2%;
@@ -77,9 +90,6 @@ iframe {
     display: inline-block;
     margin: 0px;
 }
-.logo {
-    height: 44px;
-}
 #header-logo {
     height: 50.4px;
     position: absolute;
@@ -87,26 +97,9 @@ iframe {
     top: 12%;
     padding-right: 5%;
 }
-#header {
-    display: inline;
-}
-iframe {
-    width: 99%;
-}
-.footer-container {
-    height: 5em;
-    font-size: 1.5em;
-}
-footer-logo {
-    display: inline;
-    margin: 0px;
-}
 p {
     width: 50%;
     margin-left: 13%;
     margin-right: 13%;
     text-align: center;
-}
-#calendar {
-    width: 65%;
 }

@@ -7,8 +7,11 @@
     <link rel="icon" type="image/gif" href="favicon.png" />
 </head>
 <body>
-    <div class="nav-container">
-       <img class="logo" id="header-logo" src="White_logo.png" />
+    <div id="banner">
+        <h2>Crash Course Header Banner</h2>
+        <button id="close">X</button>
+    </div>
+    <div class="header">
         <button class="nav">Home</button>
         <button class="nav">About Us</button>
         <button class="nav">Contact</button>
@@ -29,9 +32,14 @@
     <div id="spacer"></div>
     <div id="footer">
        <div class="footer-container">
-           <h3 id="header-content">College Station Code Society</h3>
+           <h3 id="">College Station Code Society</h3>
            <img class="logo" id="footer-logo" src="Black_logo.png" />
         </div>
     </div>
+    <script>
+        document.getElementById('close').addEventListener("click", () => {
+            document.getElementById('banner').style.display = "none";
+        })
+    </script>
 </body>
 </html>
